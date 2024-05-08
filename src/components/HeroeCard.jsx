@@ -6,7 +6,7 @@ export const HeroeCard = ({ id, superhero, publisher, alter_ego, first_appearanc
 
     return (
         <>
-            <div className="card mb-3">
+            <div className="card mb-3 animate__animated animate__fadeIn">
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={heroeImgUrl} className="img-fluid rounded-start" alt={superhero} />
