@@ -21,7 +21,7 @@ export const Heroe = () => {
 
 
     return (
-        <div className='row justify-content-center m-5'>
+        <div className='row justify-content-center m-5 animate__animated animate__fadeInLeft'>
             <div className='col-md-4'>
                 <img src={heroeImgUrl} alt={heroe.characters} className='img-thumbnail' />
             </div>

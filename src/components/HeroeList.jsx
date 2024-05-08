@@ -10,7 +10,7 @@ export const HeroeList = ({ publisher }) => {
     return (
         <>
             <div className='container'>
-                <div className='row justify-content-center'>
+                <div className='row justify-content-center animate__animated animate__fadeIn'>
                     {
                         heroes.map((heroe) => (
                             <div className='col-md-4' key={heroe.id}>
